@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b616283b-b023-42b1-95bf-70bafc248617" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/CacheFileEventLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/FileEventLogger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-core/target/classes/com/epam/spring/core/beans/App.class" afterPath="$PROJECT_DIR$/spring-core/target/classes/com/epam/spring/core/beans/App.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-core/target/classes/com/epam/spring/core/beans/ConsoleEventLogger.class" afterPath="$PROJECT_DIR$/spring-core/target/classes/com/epam/spring/core/beans/ConsoleEventLogger.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-core/target/classes/com/epam/spring/core/beans/EventLogger.class" afterPath="$PROJECT_DIR$/spring-core/target/classes/com/epam/spring/core/beans/EventLogger.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-core/com.epam.spring.core.iml" afterPath="$PROJECT_DIR$/spring-core/com.epam.spring.core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-core/pom.xml" afterPath="$PROJECT_DIR$/spring-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/App.java" afterPath="$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/Event.java" afterPath="$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/Event.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-core/src/main/resources/spring.xml" afterPath="$PROJECT_DIR$/spring-core/src/main/resources/spring.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-core/target/classes/spring.xml" afterPath="$PROJECT_DIR$/spring-core/target/classes/spring.xml" />
     </list>
     <ignored path="spring-core.iws" />
@@ -37,16 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.5">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/App.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,15 +95,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CacheFileEventLogger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CacheFileEventLogger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/CacheFileEventLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7083333">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="e#281#282#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-core/target/classes/com/epam/spring/core/beans/App.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#1192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-core/target/classes/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,25 +138,6 @@
               <folding>
                 <element signature="e#187#188#0" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#333#334#0" expanded="false" />
-                <element signature="e#358#359#0" expanded="false" />
-                <element signature="e#394#395#0" expanded="false" />
-                <element signature="e#422#423#0" expanded="false" />
-                <element signature="e#457#458#0" expanded="false" />
-                <element signature="e#488#489#0" expanded="false" />
-                <element signature="e#536#537#0" expanded="false" />
-                <element signature="e#576#577#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -729,6 +714,13 @@
       <option name="number" value="Default" />
       <updated>1455726000584</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lesson 1.5">
+      <created>1456904354723</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1456904354723</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -771,6 +763,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson 1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 1.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1134,12 +1130,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-core/src/main/java/com/epam/spring/core/beans/CacheFileEventLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7083333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="e#281#282#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/target/classes/com/epam/spring/core/beans/App.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core/target/classes/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
