@@ -21,15 +21,14 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
         App app = (App) ctx.getBean("app");
-
-        app.logEvent("Some event for user 1");
-        app.logEvent("Some event for user 2");
+        app.logEvent("Some event for user 1", (Event) ctx.getBean("event"));
+        app.logEvent("Some event for user 2", (Event) ctx.getBean("event"));
     }
 
-
-    public void logEvent (String msg) {
+    public void logEvent (String msg, Event event) {
         String message = msg.replaceAll(client.getId(), client.getFullName());
-        consoleEventLogger.logEvent(message);
+        event.setMsg(message);
+        consoleEventLogger.logEvent(event);
     }
 
 }

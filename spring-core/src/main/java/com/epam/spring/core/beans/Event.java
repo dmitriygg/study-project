@@ -18,6 +18,7 @@ public class Event {
     public Event(Date date, DateFormat dateFormat) {
         this.date = date;
         this.dateFormat = dateFormat;
+        this.id =  (int )(Math.random() * 50 + 1);
     }
 
     public int getId() {
