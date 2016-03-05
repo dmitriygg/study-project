@@ -22,6 +22,7 @@ public class FileEventLogger implements EventLogger {
 
     private void init() throws IOException {
         this.file = new File(fileName);
+        file.createNewFile();
         if (!this.file.canWrite()) {
             throw new IOException();
         }

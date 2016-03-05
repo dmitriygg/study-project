@@ -10,10 +10,6 @@ public class CacheFileEventLogger extends FileEventLogger {
     private int cacheSize;
     private List<Event> cache;
 
-    public CacheFileEventLogger(int cacheSize) {
-        this.cacheSize = cacheSize;
-    }
-
     public void logEvent(Event event) {
         cache.add(event);
 
@@ -29,7 +25,11 @@ public class CacheFileEventLogger extends FileEventLogger {
         }
     }
 
+    public int getCacheSize() {
+        return cacheSize;
+    }
 
-
-
+    public void setCacheSize(int cacheSize) {
+        this.cacheSize = cacheSize;
+    }
 }

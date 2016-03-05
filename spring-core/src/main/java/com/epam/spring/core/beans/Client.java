@@ -5,6 +5,10 @@ package com.epam.spring.core.beans;
  */
 public class Client {
 
+    private String id;
+    private String fullName;
+    private String greeting;
+
     public Client() {
     }
 
@@ -12,9 +16,6 @@ public class Client {
         this.id = id;
         this.fullName = fullName;
     }
-
-    private String id;
-    private String fullName;
 
     public String getId() {
         return id;
@@ -30,5 +31,13 @@ public class Client {
 
     public void setFullName(String fullName) {
         this.fullName = fullName;
+    }
+
+    public String getGreeting() {
+        return greeting;
+    }
+
+    public void setGreeting(String greeting) {
+        this.greeting = greeting;
     }
 }

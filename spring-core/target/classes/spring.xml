@@ -5,15 +5,12 @@
  		http://www.springframework.org/schema/beans
  		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
 
+    <import resource="loggers.xml"/>
+
     <bean id="client" class="com.epam.spring.core.beans.Client">
         <constructor-arg value="1"/>
         <constructor-arg value="John Smith"/>
-    </bean>
-
-    <bean id="consoleEventLogger" class="com.epam.spring.core.beans.ConsoleEventLogger" />
-
-    <bean id="fileEventLogger" class="com.epam.spring.core.beans.FileEventLogger" >
-        <constructor-arg value="loggerFile"/>
+        <property name="greeting" value="Mrs"/>
     </bean>
 
     <bean id="app" class="com.epam.spring.core.beans.App">
